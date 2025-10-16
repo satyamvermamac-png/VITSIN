@@ -15,7 +15,7 @@ export default function Navbar({ onNav, cartCount }){
           <button onClick={()=>onNav('home')} className="hover:underline">Home</button>
           <button onClick={()=>onNav('products:All')} className="hover:underline">Products</button>
           <button onClick={()=>onNav('about')} className="hover:underline">About</button>
-          <button onClick={()=>onNav('cart')" className="relative bg-sage-200 text-sage-900 px-3 py-1 rounded">{`Cart (${cartCount})`}</button>
+          <button onClick={()=>onNav('cart')} className="relative bg-sage-200 text-sage-900 px-3 py-1 rounded">{`Cart (${cartCount})`}</button>
         </nav>
       </div>
     </header>
